@@ -1,31 +1,96 @@
-#ui-header {
-    background-color: black;
-    height: 8em;
-    color: white;
-    text-align: start;
-    font-size: 22px;
-    width: 100%;
-}
-
-#ui-header b{
-    font-family: "Lobster";
-    font-size: 50px;
-    margin-top:1em;
-    margin-left: 1em;   
-}
-
-#ui-header p{
-    font-size: 12px;
-    margin-left: 4.3em;
-    font-family: Arial;  
-}
-img {
-    text-align: start;
-    width: 300px;
-    border-radius: 10px 10px 10px 10px;
+:root {
+  --main-font-color: #360A01;
 }
 #titulo {
     padding: 1em;
     text-align: center;
     font-size:2em;
+    color: var(--main-font-color);
 }
+
+#modal-img {
+    height: 14em;
+    width: 20em;
+}
+/* header */
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: var(--main-font-color);
+    border-color: var(--main-font-color);
+  }
+  .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--main-font-color);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem var(--main-font-color);
+  }
+  
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+  #color-default{
+      background-color: var(--main-font-color);
+  }
+
+  .icon-color{
+      color: white;
+      fill: white;
+  }
+
+  /* footer */
+  .b-example-divider {
+    height: 3rem;
+    background-color:var(--main-font-color);
+    border: solid var(--main-font-color);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em var(--main-font-color), inset 0 .125em .5em var(--main-font-color);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: var(--main-font-color);
+  }
+  
+  #footer-font{
+      color:var(--main-font-color);
+  }
+ /* ajusta imagem calda derretendo */
+  #ajust-img{
+    width: 100%;
+    height: 9em;
+    margin: 0px;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  /* ajusta cores dos botões */
+  #btn-colordefault{
+    background-color: var(--main-font-color);
+    color: white;
+  }
+
+  .contatos {
+    text-align: center;
+  }
+
+  .contatos h1{
+    color: var(--main-font-color);
+    font-size: 2em;
+  }
+
+  .contatos h2 {
+    font-size: 1.2em;
+
+  }
+
+  .localizacao h1{
+    color: var(--main-font-color);
+    font-size: 2em;
+    text-align: center;
+  }
