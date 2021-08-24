@@ -10,7 +10,6 @@
     <h1 id="titulo">Nossos Produtos</h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
         <?php
-        // foreach($imagesArray as $img){
         for($i = 0; $i < sizeof($imagesArray); $i++){ 
         ?>
         <div class="card-group">
