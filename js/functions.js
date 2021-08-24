@@ -11,6 +11,8 @@ var  items = item.split('|');
 var title = items[0];
 var description = items[1];
 var image = items[2];
+var valor_pedaco = items[3];
+var valor_inteiro = items[4];
 
   modalWrap  =  document.createElement('div');
   modalWrap.innerHTML  =  `
@@ -24,6 +26,8 @@ var image = items[2];
       <div class="modal-body">
         <p><img id="modal-img" src="${image}" class="card-img-top" alt="..."></p>
         <p>${description}</p>
+        ${valor_pedaco == "Indisponível" ? "" : "<p class='value'>Valor pedaço: " + valor_pedaco + "</p>"}
+        ${valor_inteiro == "Indisponível" ? "" : "<p class='value'>Valor grande: " + valor_inteiro + "</p>"}
       </div>
       <div class="modal-footer bg-light">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -41,8 +45,4 @@ var image = items[2];
 
   var  modal  =  new  bootstrap.Modal(modalWrap.querySelector('.modal')) ;
   modal.show() ;
-}
-
-function msgLoc() {
-  alert("Venha nos visitar!");
 }

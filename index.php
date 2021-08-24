@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <title>Caseirinho - Doces Caseiros</title>
+    <title>Caseirinho - Doces Caseiros de Cholate</title>
 </head>
 <body>
 
@@ -42,17 +42,17 @@
               </a>
             </li>
             <li>
+              <a  href="index.php?pagina=quemsomos.php" class="nav-link text-white">
+                <svg class="icon-color d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#shop"/></svg>
+                Quem somos
+              </a>
+            </li>
+            <li>
               <a href="index.php?pagina=info.php" class="nav-link text-white">
                 <svg class="icon-color d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#telefone"/></svg>
                 Contato
               </a>
-            </li>
-            <li>
-              <a  href="index.php?pagina=quemsomos.php" class="nav-link text-white">
-                <svg class="icon-color d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#shop"/></svg>
-                Localização
-              </a>
-            </li>
+            </li> 
           </ul>
         </div>
       </div>

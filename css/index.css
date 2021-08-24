@@ -94,3 +94,24 @@
     font-size: 2em;
     text-align: center;
   }
+
+  .value{
+    font-weight: bold;
+    color: var(--main-font-color);
+  }
+
+  .quem-somos{
+    border: solid 1px lightgrey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2em;
+    margin: 3em;
+  }
+  .quem-somos h1 {
+    color: var(--main-font-color);
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .quem-somos h2{
+    font-size: 1.2em;
+  }

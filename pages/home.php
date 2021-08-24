@@ -7,7 +7,7 @@
     include("function/funcoes.php");
 ?>
 <div class="container">
-    <h1 id="titulo">Produtos</h1>
+    <h1 id="titulo">Nossos Produtos</h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
         <?php
         // foreach($imagesArray as $img){
@@ -19,7 +19,7 @@
                 <div class="card-body">
                 <h5 class="card-title"><?=$imagesArray[$i]["title"];?></h5>
                 <p class="card-text"><?=substr($imagesArray[$i]["description"],0,20);?>...</p>
-                <a  id="btn-colordefault" data-bs-toggle="modal" onclick="showModal('<?=$imagesArray[$i]['title'];?>|<?=$imagesArray[$i]['description'];?>|<?=$imagesArray[$i]['path'];?>')" class="btn">Descrição</a>
+                <a  id="btn-colordefault" data-bs-toggle="modal" onclick="showModal('<?=$imagesArray[$i]['title'];?>|<?=$imagesArray[$i]['description'];?>|<?=$imagesArray[$i]['path'];?>|<?=$imagesArray[$i]['valor_pedaco'];?>|<?=$imagesArray[$i]['valor_inteiro'];?>')" class="btn">Descrição</a>
             </div>
             </div>
         </div>
